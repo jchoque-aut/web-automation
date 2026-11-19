@@ -1,0 +1,95 @@
+- generic [ref=e2]:
+  - link [ref=e5] [cursor=pointer]:
+    - /url: /
+    - text: U.A.
+    - strong [ref=e6]: T.F
+  - generic [ref=e8]:
+    - list [ref=e9]:
+      - listitem [ref=e10]:
+        - link " 1 Debes de colocar tu número de carnet de identidad o CI Vamos a verificar si tu carnet está registrado o no." [ref=e66] [cursor=pointer]:
+          - /url: "#step-1"
+          - generic [ref=e12]:  1
+          - generic [ref=e13]:
+            - text: Debes de colocar tu número de carnet de identidad o CI
+            - generic [ref=e14]: Vamos a verificar si tu carnet está registrado o no.
+      - listitem [ref=e15]:
+        - link " 2 Debes de llenar tu información Personal Queremos saber de ti." [ref=e190] [cursor=pointer]:
+          - /url: "#step-2"
+          - generic [ref=e17]:  2
+          - generic [ref=e18]:
+            - text: Debes de llenar tu información Personal
+            - generic [ref=e19]: Queremos saber de ti.
+      - listitem [ref=e20]:
+        - link " 3 Debes de llenar la Nacionalidad y tu Dirección Actual Queremos saber cuál es tu nacionalidad y tu dirección actual." [ref=e277] [cursor=pointer]:
+          - /url: "#step-3"
+          - generic [ref=e22]:  3
+          - generic [ref=e23]:
+            - text: Debes de llenar la Nacionalidad y tu Dirección Actual
+            - generic [ref=e24]: Queremos saber cuál es tu nacionalidad y tu dirección actual.
+      - listitem [ref=e25]:
+        - link "4 Debes de llenar la Información de tu Apoderado Queremos saber quién es tu apoderado." [ref=e26] [cursor=pointer]:
+          - /url: "#step-4"
+          - generic [ref=e27]: "4"
+          - generic [ref=e28]:
+            - text: Debes de llenar la Información de tu Apoderado
+            - generic [ref=e29]: Queremos saber quién es tu apoderado.
+      - listitem [ref=e30]:
+        - link "5 Debes de llenar la Información de tu Secundaria de Egreso y carrera optaras. Queremos saber de qué secundaria egresaste y que carrera vas a optar." [ref=e31]:
+          - /url: "#step-5"
+          - generic [ref=e32]: "5"
+          - generic [ref=e33]:
+            - text: Debes de llenar la Información de tu Secundaria de Egreso y carrera optaras.
+            - generic [ref=e34]: Queremos saber de qué secundaria egresaste y que carrera vas a optar.
+      - listitem [ref=e35]:
+        - link "6 Verifica tu información y completa tu registro. Una vez que hayas verificado tu información, ya puedes finalizar tu registro." [ref=e36]:
+          - /url: "#step-6"
+          - generic [ref=e37]: "6"
+          - generic [ref=e38]:
+            - text: Verifica tu información y completa tu registro.
+            - generic [ref=e39]: Una vez que hayas verificado tu información, ya puedes finalizar tu registro.
+    - generic [ref=e40]:
+      - text:                            
+      - group [ref=e279]:
+        - generic [ref=e280]:
+          - heading "UNIVERSIDAD AUTÓNOMA TOMAS FRÍAS" [level=3] [ref=e281]
+          - paragraph [ref=e282]:
+            - text: "Nota: En el respectivo formulario encontraras * es requisito llenar esos campos, si necesitas ayuda para llenar los campos puedes hacer click a los iconos"
+            - generic [ref=e283]: 
+          - separator [ref=e285]
+          - generic [ref=e286]:
+            - heading "Información del Apoderado del Estudiante" [level=4] [ref=e287]
+            - generic [ref=e288]: 
+          - generic [ref=e291]:
+            - generic [ref=e292]:
+              - generic [ref=e293]:
+                - generic [ref=e294]: Nombre del Apoderado
+                - generic [ref=e296]:
+                  - textbox "Ingrese el nombre del apoderado" [ref=e298]
+                  - generic [ref=e299]: 
+              - generic [ref=e302]:
+                - generic [ref=e303]: Apellido paterno del Apoderado
+                - generic [ref=e305]:
+                  - textbox "Apellido paterno del Apoderado" [ref=e307]
+                  - generic [ref=e308]: 
+              - generic [ref=e311]:
+                - generic [ref=e312]: Apellido materno del Apoderado
+                - generic [ref=e314]:
+                  - textbox "Apellido materno del Apoderado" [ref=e316]
+                  - generic [ref=e317]: 
+            - generic [ref=e320]:
+              - generic [ref=e321]:
+                - generic [ref=e322]: Dirección actual del Apoderado
+                - generic [ref=e324]:
+                  - textbox "Direccion actual del apoderado" [ref=e326]
+                  - generic [ref=e327]: 
+              - generic [ref=e330]:
+                - generic [ref=e331]: Telefono del Apoderado
+                - generic [ref=e333]:
+                  - textbox "Ingrese número de telefono del apoderado" [ref=e335]
+                  - generic [ref=e336]: 
+      - text:                 
+    - group [ref=e61]:
+      - button "Anterior" [ref=e62] [cursor=pointer]
+      - button "Siguiente" [ref=e63] [cursor=pointer]
+  - link "" [ref=e64] [cursor=pointer]:
+    - /url: javascript:;

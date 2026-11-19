@@ -1,0 +1,115 @@
+- generic [ref=e2]:
+  - link [ref=e5] [cursor=pointer]:
+    - /url: /
+    - text: U.A.
+    - strong [ref=e6]: T.F
+  - generic [ref=e8]:
+    - list [ref=e9]:
+      - listitem [ref=e10]:
+        - link " 1 Debes de colocar tu número de carnet de identidad o CI Vamos a verificar si tu carnet está registrado o no." [ref=e66] [cursor=pointer]:
+          - /url: "#step-1"
+          - generic [ref=e12]:  1
+          - generic [ref=e13]:
+            - text: Debes de colocar tu número de carnet de identidad o CI
+            - generic [ref=e14]: Vamos a verificar si tu carnet está registrado o no.
+      - listitem [ref=e15]:
+        - link " 2 Debes de llenar tu información Personal Queremos saber de ti." [ref=e190] [cursor=pointer]:
+          - /url: "#step-2"
+          - generic [ref=e17]:  2
+          - generic [ref=e18]:
+            - text: Debes de llenar tu información Personal
+            - generic [ref=e19]: Queremos saber de ti.
+      - listitem [ref=e20]:
+        - link "3 Debes de llenar la Nacionalidad y tu Dirección Actual Queremos saber cuál es tu nacionalidad y tu dirección actual." [ref=e21] [cursor=pointer]:
+          - /url: "#step-3"
+          - generic [ref=e22]: "3"
+          - generic [ref=e23]:
+            - text: Debes de llenar la Nacionalidad y tu Dirección Actual
+            - generic [ref=e24]: Queremos saber cuál es tu nacionalidad y tu dirección actual.
+      - listitem [ref=e25]:
+        - link "4 Debes de llenar la Información de tu Apoderado Queremos saber quién es tu apoderado." [ref=e26]:
+          - /url: "#step-4"
+          - generic [ref=e27]: "4"
+          - generic [ref=e28]:
+            - text: Debes de llenar la Información de tu Apoderado
+            - generic [ref=e29]: Queremos saber quién es tu apoderado.
+      - listitem [ref=e30]:
+        - link "5 Debes de llenar la Información de tu Secundaria de Egreso y carrera optaras. Queremos saber de qué secundaria egresaste y que carrera vas a optar." [ref=e31]:
+          - /url: "#step-5"
+          - generic [ref=e32]: "5"
+          - generic [ref=e33]:
+            - text: Debes de llenar la Información de tu Secundaria de Egreso y carrera optaras.
+            - generic [ref=e34]: Queremos saber de qué secundaria egresaste y que carrera vas a optar.
+      - listitem [ref=e35]:
+        - link "6 Verifica tu información y completa tu registro. Una vez que hayas verificado tu información, ya puedes finalizar tu registro." [ref=e36]:
+          - /url: "#step-6"
+          - generic [ref=e37]: "6"
+          - generic [ref=e38]:
+            - text: Verifica tu información y completa tu registro.
+            - generic [ref=e39]: Una vez que hayas verificado tu información, ya puedes finalizar tu registro.
+    - generic [ref=e40]:
+      - text:                
+      - group [ref=e192]:
+        - generic [ref=e193]:
+          - heading "UNIVERSIDAD AUTÓNOMA TOMAS FRÍAS" [level=3] [ref=e194]
+          - paragraph [ref=e195]:
+            - text: "Nota: En el respectivo formulario encontraras * es requisito llenar esos campos, si necesitas ayuda para llenar los campos puedes hacer click en los iconos"
+            - generic [ref=e196]: 
+          - separator [ref=e198]
+          - generic [ref=e199]:
+            - heading "Nacionalidad y Dirección Actual del Estudiante" [level=4] [ref=e200]
+            - generic [ref=e201]: 
+          - generic [ref=e205]:
+            - generic [ref=e206]: Seleccione País de origen
+            - generic [ref=e207]:
+              - generic [ref=e208]: Seleccione País *
+              - generic [ref=e210]:
+                - generic [ref=e211]:
+                  - combobox [aria-hidden] [ref=e212]
+                  - combobox [ref=e215] [cursor=pointer]:
+                    - textbox "BOLIVIA" [ref=e216]
+                    - text: 
+                - generic [ref=e217]: 
+            - generic [ref=e220]:
+              - generic [ref=e221]: Seleccione Ciudad o Departamento *
+              - generic [ref=e223]:
+                - generic [ref=e224]:
+                  - combobox [aria-hidden] [ref=e225]
+                  - combobox [ref=e228] [cursor=pointer]:
+                    - textbox "POTOSI" [ref=e229]
+                    - text: 
+                - generic [ref=e230]: 
+            - generic [ref=e233]:
+              - generic [ref=e234]: Seleccione Provincia *
+              - generic [ref=e236]:
+                - generic [ref=e237]:
+                  - combobox [aria-hidden] [ref=e238]
+                  - combobox [ref=e241] [cursor=pointer]:
+                    - textbox "TOMAS FRIAS" [ref=e242]
+                    - text: 
+                - generic [ref=e243]: 
+            - generic [ref=e246]:
+              - generic [ref=e247]: Seleccione Localidad *
+              - generic [ref=e249]:
+                - generic [ref=e250]:
+                  - combobox [aria-hidden] [ref=e251]
+                  - combobox [ref=e254] [cursor=pointer]:
+                    - textbox "POTOSI" [ref=e255]
+                    - text: 
+                - generic [ref=e256]: 
+            - generic [ref=e259]:
+              - generic [ref=e260]: Zona actual de su direccion *
+              - generic [ref=e262]:
+                - textbox "Zona actual de su direccion" [ref=e264]
+                - generic [ref=e265]: 
+            - generic [ref=e268]:
+              - generic [ref=e269]: Dirección actual *
+              - generic [ref=e271]:
+                - textbox "Direccion actual" [ref=e273]
+                - generic [ref=e274]: 
+      - text:                        
+    - group [ref=e61]:
+      - button "Anterior" [ref=e62] [cursor=pointer]
+      - button "Siguiente" [ref=e63] [cursor=pointer]
+  - link "" [ref=e64] [cursor=pointer]:
+    - /url: javascript:;

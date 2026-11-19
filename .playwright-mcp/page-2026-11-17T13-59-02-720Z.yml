@@ -1,0 +1,91 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: /
+      - text: U.A.
+      - strong [ref=e6]: T.F
+    - generic [ref=e8]:
+      - list [ref=e9]:
+        - listitem [ref=e10]:
+          - link " 1 Debes de colocar tu número de carnet de identidad o CI Vamos a verificar si tu carnet está registrado o no." [ref=e66] [cursor=pointer]:
+            - /url: "#step-1"
+            - generic [ref=e12]:  1
+            - generic [ref=e13]:
+              - text: Debes de colocar tu número de carnet de identidad o CI
+              - generic [ref=e14]: Vamos a verificar si tu carnet está registrado o no.
+        - listitem [ref=e15]:
+          - link " 2 Debes de llenar tu información Personal Queremos saber de ti." [ref=e190] [cursor=pointer]:
+            - /url: "#step-2"
+            - generic [ref=e17]:  2
+            - generic [ref=e18]:
+              - text: Debes de llenar tu información Personal
+              - generic [ref=e19]: Queremos saber de ti.
+        - listitem [ref=e20]:
+          - link " 3 Debes de llenar la Nacionalidad y tu Dirección Actual Queremos saber cuál es tu nacionalidad y tu dirección actual." [ref=e277] [cursor=pointer]:
+            - /url: "#step-3"
+            - generic [ref=e22]:  3
+            - generic [ref=e23]:
+              - text: Debes de llenar la Nacionalidad y tu Dirección Actual
+              - generic [ref=e24]: Queremos saber cuál es tu nacionalidad y tu dirección actual.
+        - listitem [ref=e25]:
+          - link " 4 Debes de llenar la Información de tu Apoderado Queremos saber quién es tu apoderado." [ref=e339] [cursor=pointer]:
+            - /url: "#step-4"
+            - generic [ref=e27]:  4
+            - generic [ref=e28]:
+              - text: Debes de llenar la Información de tu Apoderado
+              - generic [ref=e29]: Queremos saber quién es tu apoderado.
+        - listitem [ref=e30]:
+          - link " 5 Debes de llenar la Información de tu Secundaria de Egreso y carrera optaras. Queremos saber de qué secundaria egresaste y que carrera vas a optar." [ref=e488] [cursor=pointer]:
+            - /url: "#step-5"
+            - generic [ref=e32]:  5
+            - generic [ref=e33]:
+              - text: Debes de llenar la Información de tu Secundaria de Egreso y carrera optaras.
+              - generic [ref=e34]: Queremos saber de qué secundaria egresaste y que carrera vas a optar.
+        - listitem [ref=e35]:
+          - link "6 Verifica tu información y completa tu registro. Una vez que hayas verificado tu información, ya puedes finalizar tu registro." [ref=e36] [cursor=pointer]:
+            - /url: "#step-6"
+            - generic [ref=e37]: "6"
+            - generic [ref=e38]:
+              - text: Verifica tu información y completa tu registro.
+              - generic [ref=e39]: Una vez que hayas verificado tu información, ya puedes finalizar tu registro.
+      - generic [ref=e40]:
+        - text:                                                    
+        - generic [ref=e490]:
+          - generic [ref=e491]:
+            - heading "Previsualizacón del Postulante" [level=2] [ref=e492]
+            - generic [ref=e493]:
+              - generic [ref=e494]:
+                - generic [ref=e495]:
+                  - generic [ref=e496]: "Número de Carnet de identidad CI:"
+                  - generic [ref=e497]: "9876543"
+                - generic [ref=e501]:
+                  - generic [ref=e502]: "Nombres Completos:"
+                  - generic [ref=e503]: Prueba Automatizada
+                - generic [ref=e507]:
+                  - generic [ref=e508]: "Apellido Paterno:"
+                  - generic [ref=e509]: Test
+                - generic [ref=e513]:
+                  - generic [ref=e514]: "Apellidos Maternos:"
+                  - generic [ref=e515]: Playwright
+              - generic [ref=e519]:
+                - generic [ref=e520]:
+                  - generic [ref=e521]: "Fecha de Nacimiento:"
+                  - generic [ref=e522]: 1950-01-01
+                - generic [ref=e526]:
+                  - generic [ref=e527]: "Número de Telefóno:"
+                  - generic [ref=e528]: "70000000"
+                - generic [ref=e532]:
+                  - generic [ref=e533]: "Genero:"
+                  - generic [ref=e534]: FEMENINO
+          - heading "Tu registro está casi completo..." [level=2] [ref=e538]
+          - paragraph [ref=e539]: Antes de terminar tu registro te invitamos a revisar los datos previamente seleccionados y llenados, podrás hacerlo en las pestañas y verifica que la información enviada sea la correcta. Una vez revisado tu información, puedes proseguir haciendo click en "Terminar mi registro".
+          - button "Terminar mi registro" [ref=e540] [cursor=pointer]
+      - group [ref=e61]:
+        - button "Anterior" [ref=e62] [cursor=pointer]
+        - button "Siguiente" [ref=e63] [cursor=pointer]
+    - link "" [ref=e64] [cursor=pointer]:
+      - /url: javascript:;
+  - dialog [ref=e542]:
+    - generic [ref=e548]: Felicidades has completado tu Registro
+    - generic [ref=e549]: "Se te ha generado un usuario: 9876543 y una contraseña: 01011950 . Por favor inicia sesion en el sistema"
+    - button "Aceptar" [active] [ref=e552] [cursor=pointer]

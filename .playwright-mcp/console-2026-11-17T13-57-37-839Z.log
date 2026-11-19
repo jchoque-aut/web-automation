@@ -1,0 +1,17 @@
+[    1066ms] [ERROR] Mixed Content: The page at 'https://postulaciones.uatf.edu.bo/postulaciones/register#step-1' was loaded over HTTPS, but requested an insecure script 'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js'. This request has been blocked; the content must be served over HTTPS. @ https://postulaciones.uatf.edu.bo/postulaciones/register#step-1:1
+[    1353ms] [WARNING] Deprecation warning: moment().subtract(period, number) is deprecated. Please use moment().subtract(number, period). See http://momentjs.com/guides/#/warnings/add-inverted-param/ for more info. @ https://postulaciones.uatf.edu.bo/assets/plugins/moment/min/moment.min.js:1
+[    1375ms] [WARNING] jQuery.Deferred exception: $(...).colorPalette is not a function TypeError: $(...).colorPalette is not a function
+    at handleBootstrapColorPalette (https://postulaciones.uatf.edu.bo/assets/js/demo/form-plugins.demo.js:297:24)
+    at Object.init (https://postulaciones.uatf.edu.bo/assets/js/demo/form-plugins.demo.js:353:4)
+    at HTMLDocument.<anonymous> (https://postulaciones.uatf.edu.bo/assets/js/demo/form-plugins.demo.js:362:14)
+    at t (https://postulaciones.uatf.edu.bo/assets/js/app.min.js:1:41444)
+    at e (https://postulaciones.uatf.edu.bo/assets/js/app.min.js:1:41768) undefined @ https://postulaciones.uatf.edu.bo/assets/js/app.min.js:1
+[    1401ms] TypeError: $(...).colorPalette is not a function
+    at handleBootstrapColorPalette (https://postulaciones.uatf.edu.bo/assets/js/demo/form-plugins.demo.js:297:24)
+    at Object.init (https://postulaciones.uatf.edu.bo/assets/js/demo/form-plugins.demo.js:353:4)
+    at HTMLDocument.<anonymous> (https://postulaciones.uatf.edu.bo/assets/js/demo/form-plugins.demo.js:362:14)
+    at t (https://postulaciones.uatf.edu.bo/assets/js/app.min.js:1:41444)
+    at e (https://postulaciones.uatf.edu.bo/assets/js/app.min.js:1:41768)
+[    8220ms] [LOG]  @ https://postulaciones.uatf.edu.bo/postulaciones/register:1682
+[    8224ms] [WARNING] Calling validate on a parsley form without passing arguments as an object is deprecated. @ https://postulaciones.uatf.edu.bo/assets/plugins/parsleyjs/dist/parsley.js:179
+[  115639ms] Invalid or unexpected token

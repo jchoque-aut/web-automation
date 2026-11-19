@@ -1,0 +1,67 @@
+- generic [ref=e2]:
+  - link [ref=e5] [cursor=pointer]:
+    - /url: /
+    - text: U.A.
+    - strong [ref=e6]: T.F
+  - generic [ref=e8]:
+    - list [ref=e9]:
+      - listitem [ref=e10]:
+        - link "1 Debes de colocar tu número de carnet de identidad o CI Vamos a verificar si tu carnet está registrado o no." [ref=e11] [cursor=pointer]:
+          - /url: "#step-1"
+          - generic [ref=e12]: "1"
+          - generic [ref=e13]:
+            - text: Debes de colocar tu número de carnet de identidad o CI
+            - generic [ref=e14]: Vamos a verificar si tu carnet está registrado o no.
+      - listitem [ref=e15]:
+        - link "2 Debes de llenar tu información Personal Queremos saber de ti." [ref=e16]:
+          - /url: "#step-2"
+          - generic [ref=e17]: "2"
+          - generic [ref=e18]:
+            - text: Debes de llenar tu información Personal
+            - generic [ref=e19]: Queremos saber de ti.
+      - listitem [ref=e20]:
+        - link "3 Debes de llenar la Nacionalidad y tu Dirección Actual Queremos saber cuál es tu nacionalidad y tu dirección actual." [ref=e21]:
+          - /url: "#step-3"
+          - generic [ref=e22]: "3"
+          - generic [ref=e23]:
+            - text: Debes de llenar la Nacionalidad y tu Dirección Actual
+            - generic [ref=e24]: Queremos saber cuál es tu nacionalidad y tu dirección actual.
+      - listitem [ref=e25]:
+        - link "4 Debes de llenar la Información de tu Apoderado Queremos saber quién es tu apoderado." [ref=e26]:
+          - /url: "#step-4"
+          - generic [ref=e27]: "4"
+          - generic [ref=e28]:
+            - text: Debes de llenar la Información de tu Apoderado
+            - generic [ref=e29]: Queremos saber quién es tu apoderado.
+      - listitem [ref=e30]:
+        - link "5 Debes de llenar la Información de tu Secundaria de Egreso y carrera optaras. Queremos saber de qué secundaria egresaste y que carrera vas a optar." [ref=e31]:
+          - /url: "#step-5"
+          - generic [ref=e32]: "5"
+          - generic [ref=e33]:
+            - text: Debes de llenar la Información de tu Secundaria de Egreso y carrera optaras.
+            - generic [ref=e34]: Queremos saber de qué secundaria egresaste y que carrera vas a optar.
+      - listitem [ref=e35]:
+        - link "6 Verifica tu información y completa tu registro. Una vez que hayas verificado tu información, ya puedes finalizar tu registro." [ref=e36]:
+          - /url: "#step-6"
+          - generic [ref=e37]: "6"
+          - generic [ref=e38]:
+            - text: Verifica tu información y completa tu registro.
+            - generic [ref=e39]: Una vez que hayas verificado tu información, ya puedes finalizar tu registro.
+    - generic [ref=e40]:
+      - group [ref=e42]:
+        - generic [ref=e43]:
+          - heading "UNIVERSIDAD AUTÓNOMA TOMAS FRÍAS" [level=3] [ref=e44]
+          - paragraph [ref=e45]: "Nota: Antes de realizar tu registro verificaremos si tu carnet de identidad CI ya está registrado o no."
+          - separator [ref=e46]
+          - heading "Ingresa tu número de Carnet de Identidad o CI." [level=4] [ref=e48]
+          - generic [ref=e51]:
+            - generic [ref=e52]: N º de Carnet de Identidad C.I *
+            - generic [ref=e54]:
+              - textbox "Número de Carnet C.I" [ref=e56]
+              - generic [ref=e57]: 
+      - text:                                                   
+    - group [ref=e61]:
+      - button "Anterior" [ref=e62] [cursor=pointer]
+      - button "Siguiente" [ref=e63] [cursor=pointer]
+  - link "" [ref=e64] [cursor=pointer]:
+    - /url: javascript:;
